@@ -5,7 +5,7 @@ This swing toast notifications use for java desktop application gui swing with f
 <img src="https://github.com/DJ-Raven/swing-toast-notifications/assets/58245926/71965d6a-1fd1-4ab4-b2d7-f7424b9c277e" alt="sample dark" width="450"/>
 <img src="https://github.com/DJ-Raven/swing-toast-notifications/assets/58245926/228a958d-ad02-41df-b1aa-b16f7d88deec" alt="sample light" width="450"/>
 
-~~
+
 ## Install
 
 This library not available in maven, try use jar file, by copy to the root project `/library/swing-toast-notifications-1.0.3.jar`
@@ -32,11 +32,11 @@ This library not available in maven, try use jar file, by copy to the root proje
   <artifactId>flatlaf-extras</artifactId>
   <version>3.4.1</version>
 </dependency>
-```~~
+```
 ## Getting started
 
-~~- Import flatlaf library and flatlaf extras to your project
-- And Import swing toast notifications `(check jar file in library folder)`~~
+- Import flatlaf library and flatlaf extras to your project
+- And Import swing toast notifications `(check jar file in library folder)`
 
 ``` java
 //  Setup notifications with jfram
