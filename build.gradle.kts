@@ -2,7 +2,7 @@ plugins {
     id("java")
     `java-library`
     `maven-publish`
-    signing
+//    signing
 }
 
 group = "com.github.sipsuru"
@@ -88,10 +88,10 @@ publishing {
 //    }
 }
 
-signing {
-    useGpgCmd()
-    sign(publishing.publications["RavenSwingToasts"])
-}
+//signing {
+//    useGpgCmd()
+//    sign(publishing.publications["RavenSwingToasts"])
+//}
 
 tasks.javadoc {
     if (JavaVersion.current().isJava9Compatible) {
