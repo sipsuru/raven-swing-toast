@@ -69,23 +69,22 @@ publishing {
             }
         }
     }
-//    repositories {
-//        maven {
-//            name = "centralManualTesting"
-////            credentials(HttpHeaderCredentials)
-////            authentication {
-////                header(HttpHeaderAuthentication)
-////            }
-//
-//            name = "sonatype"
-//            url = uri("https://central.sonatype.com/api/v1/publisher/deployments/download/")
-//            credentials {
-//                username = project.findProperty("sonatypeUsername") as String? ?: System.getenv("OSSRH_USERNAME")
-//                password = project.findProperty("sonatypePassword") as String? ?: System.getenv("OSSRH_PASSWORD")
-//            }
-//        }
-//
-//    }
+
+    repositories {
+        maven {
+            name = "GitHub"
+            url = uri("https://maven.pkg.github.com/sipsuru/raven-swing-toast")
+            credentials {
+                username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
+            }
+        }
+    }
+    publications {
+        register<MavenPublication>("gpr") {
+            from(components["java"])
+        }
+    }
 }
 
 //signing {
