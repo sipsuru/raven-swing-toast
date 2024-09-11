@@ -49,5 +49,5 @@ jobs:
     - name: Publish to Sonatype
       run: ./gradlew publishRavenSwingToastsPublicationToOSSRHRepository
       env:
-        USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-        TOKEN: ${{ secrets.SONATYPE_TOKEN }}
+        SONATYPE_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+        SONATYPE_TOKEN: ${{ secrets.SONATYPE_TOKEN }}
