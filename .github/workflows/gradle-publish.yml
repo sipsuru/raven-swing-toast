@@ -43,3 +43,11 @@ jobs:
       env:
         USERNAME: ${{ github.actor }}
         TOKEN: ${{ secrets.PACKAGER_TOKEN }}
+        
+    # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
+    # the publishing section of your build.gradle
+    - name: Publish to Sonatype
+      run: ./gradlew publishRavenSwingToastsPublicationToOSSRHRepository
+      env:
+        USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+        TOKEN: ${{ secrets.SONATYPE_TOKEN }}
