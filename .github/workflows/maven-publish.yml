@@ -9,8 +9,6 @@ name: Gradle Package - Github
 
 on:
   workflow_dispatch:
-  release:
-    types: [created]
 
 jobs:
   build:
