@@ -51,7 +51,6 @@ public class ToastPanelUI extends BasicPanelUI implements StyleableUI, PropertyC
     protected Insets margin;
     @Styleable
     protected Icon closeButtonIcon;
-
     @Styleable
     protected boolean useEffect;
     @Styleable
