@@ -1,1 +1,1 @@
-rootProject.name = "swing-toast-notifications"
+rootProject.name = "raven-swing-toast"
