@@ -1,9 +1,9 @@
-package raven.toast.ui;
+package com.github.sipsuru.toast.ui;
 
 import com.formdev.flatlaf.FlatClientProperties;
 import com.formdev.flatlaf.extras.FlatSVGIcon;
-import raven.toast.Notifications;
-import raven.toast.ToastClientProperties;
+import com.github.sipsuru.toast.Notifications;
+import com.github.sipsuru.toast.ToastClientProperties;
 
 import javax.swing.*;
 import java.awt.*;

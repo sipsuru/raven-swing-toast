@@ -1,4 +1,4 @@
-package raven.toast;
+package com.github.sipsuru.toast;
 
 public interface ToastClientProperties {
     String TOAST_ICON = "Toast.icon";

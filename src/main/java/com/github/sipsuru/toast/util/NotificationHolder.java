@@ -1,6 +1,6 @@
-package raven.toast.util;
+package com.github.sipsuru.toast.util;
 
-import raven.toast.Notifications;
+import com.github.sipsuru.toast.Notifications;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package raven.toast.util;
+package com.github.sipsuru.toast.util;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

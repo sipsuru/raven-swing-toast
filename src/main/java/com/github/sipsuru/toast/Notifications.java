@@ -1,11 +1,11 @@
-package raven.toast;
+package com.github.sipsuru.toast;
 
 import com.formdev.flatlaf.ui.FlatUIUtils;
 import com.formdev.flatlaf.util.Animator;
 import com.formdev.flatlaf.util.UIScale;
-import raven.toast.ui.ToastNotificationPanel;
-import raven.toast.util.NotificationHolder;
-import raven.toast.util.UIUtils;
+import com.github.sipsuru.toast.ui.ToastNotificationPanel;
+import com.github.sipsuru.toast.util.NotificationHolder;
+import com.github.sipsuru.toast.util.UIUtils;
 
 import javax.swing.*;
 import java.awt.*;
