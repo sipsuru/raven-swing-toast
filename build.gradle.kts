@@ -72,6 +72,14 @@ publishing {
 
     repositories {
         maven {
+            name = "OSSRH"
+            url = uri("https://oss.sonatype.org/service/local/staging/deploy/maven2/")
+            credentials {
+                username = project.findProperty("gpr.user") as String? ?: System.getenv("SONATYPE_USERNAME")
+                password = project.findProperty("gpr.key") as String? ?: System.getenv("SONATYPE_TOKEN")
+            }
+        }
+        maven {
             name = "GitHub"
             url = uri("https://maven.pkg.github.com/sipsuru/raven-swing-toast")
             credentials {
