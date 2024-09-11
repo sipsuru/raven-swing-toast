@@ -1,4 +1,4 @@
-package com.github.sipsuru.toast.util;
+package com.sipsuru.toast.util;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

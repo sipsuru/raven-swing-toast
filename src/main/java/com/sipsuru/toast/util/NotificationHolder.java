@@ -1,6 +1,6 @@
-package com.github.sipsuru.toast.util;
+package com.sipsuru.toast.util;
 
-import com.github.sipsuru.toast.Notifications;
+import com.sipsuru.toast.Notifications;
 
 import java.util.ArrayList;
 import java.util.List;

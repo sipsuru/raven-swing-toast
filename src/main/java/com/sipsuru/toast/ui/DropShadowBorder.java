@@ -1,10 +1,10 @@
-package com.github.sipsuru.toast.ui;
+package com.sipsuru.toast.ui;
 
 import com.formdev.flatlaf.FlatPropertiesLaf;
 import com.formdev.flatlaf.ui.FlatStylingSupport.Styleable;
 import com.formdev.flatlaf.ui.FlatUIUtils;
 import com.formdev.flatlaf.util.UIScale;
-import com.github.sipsuru.toast.util.ShadowRenderer;
+import com.sipsuru.toast.util.ShadowRenderer;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
