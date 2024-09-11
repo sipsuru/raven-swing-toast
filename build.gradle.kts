@@ -76,7 +76,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/sipsuru/raven-swing-toast")
             credentials {
                 username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") as String? ?: System.getenv("THE_SECRET_AS_TOKEN")
+                password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
             }
         }
     }
