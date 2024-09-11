@@ -70,21 +70,21 @@ publishing {
         }
     }
 
-    repositories {
-        maven {
-            name = "GitHub"
-            url = uri("https://maven.pkg.github.com/sipsuru/raven-swing-toast")
-            credentials {
-                username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
-            }
-        }
-    }
-    publications {
-        register<MavenPublication>("gpr") {
-            from(components["java"])
-        }
-    }
+   // repositories {
+     //   maven {
+       //     name = "GitHub"
+         //   url = uri("https://maven.pkg.github.com/sipsuru/raven-swing-toast")
+           // credentials {
+             //   username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
+  //              password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
+    //        }
+      //  }
+   // }
+  //  publications {
+    //    register<MavenPublication>("gpr") {
+      //      from(components["java"])
+        //}
+    //}
 }
 
 //signing {
