@@ -7,6 +7,30 @@ This swing toast notifications use for java desktop application gui swing with f
 
 ## Getting started
 
+### This library is available with `JitPack`
+
+[![](https://jitpack.io/v/sipsuru/raven-swing-toast.svg)](https://jitpack.io/#sipsuru/raven-swing-toast)
+
+For gradle 8.10, with Kotlin DSL
+
+``` java
+repositories {
+    mavenCentral()
+    maven {
+        url = uri("https://jitpack.io")
+    }
+}
+```
+
+``` java
+dependencies {
+    implementation("com.github.sipsuru:raven-swing-toast:1.0.0")
+    //Other depenndancies
+}
+```
+
+Now, there are a whole set of available customizations.
+
 ``` java
 //  Setup notifications with jfram
 
@@ -116,13 +140,13 @@ Toast.frameInsets = 15,15,15,15
 UIManager.put(ToastClientProperties.TOAST_INFO_ICON, new FlatSVGIcon("raven/toast/error.svg"));
 ```
 
-| Key               | Description  | Value Type    |
-| ------------------| ------------ | ------------- |
-| Toast.success.icon |  | Icon |
-| Toast.info.icon   |  | Icon |
-| Toast.warning.icon |  | Icon |
-| Toast.error.icon  |  | Icon |
-| Toast.closeIcon   |  | Icon |
+| Key                | Description  | Value Type    |
+| -------------------| ------------ | ------------- |
+| Toast.success.icon |              | Icon          |
+| Toast.info.icon    |              | Icon          |
+| Toast.warning.icon |              | Icon          |
+| Toast.error.icon   |              | Icon          |
+| Toast.closeIcon    |              | Icon          |
 
 Visit flatlaf for more
 
@@ -130,10 +154,10 @@ Visit flatlaf for more
 - [Flatlaf documentation](https://www.formdev.com/flatlaf/customizing/)
 
 ### Update Note
-- `version 1.0.1`
+- `version 0.0.1` [(Original 1.0.1)](https://github.com/DJ-Raven/swing-toast-notifications)
   - add properties `Toast.maximumWidth`
   - add properties `Toast.limit`
   - add method `void clearHold()` and `void clearHold(Location location)`
 ### Fixed Note
-- `version 1.0.1`
+- `version 0.0.1` [(Original 1.0.1](https://github.com/DJ-Raven/swing-toast-notifications)
   - fixed notification style properties background
