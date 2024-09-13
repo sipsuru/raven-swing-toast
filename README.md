@@ -1,4 +1,4 @@
-# Raven-Swing-Toas (Formerly - Swing-Toast-Notifications)
+# Raven-Swing-Toast (Formerly - Swing-Toast-Notifications)
 
 This swing toast notifications use for java desktop application gui swing with flatlaf
 
