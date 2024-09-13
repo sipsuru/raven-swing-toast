@@ -1,4 +1,4 @@
-package com.sipsuru.toast.ui;
+package com.walisinghe.toast.ui;
 
 import com.formdev.flatlaf.FlatClientProperties;
 import com.formdev.flatlaf.ui.FlatStylingSupport;
@@ -7,7 +7,7 @@ import com.formdev.flatlaf.ui.FlatStylingSupport.StyleableUI;
 import com.formdev.flatlaf.ui.FlatUIUtils;
 import com.formdev.flatlaf.util.LoggingFacade;
 import com.formdev.flatlaf.util.UIScale;
-import com.sipsuru.toast.util.UIUtils;
+import com.walisinghe.toast.util.UIUtils;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.function.Consumer;
 
 import static com.formdev.flatlaf.FlatClientProperties.*;
-import static com.sipsuru.toast.ToastClientProperties.*;
+import static com.walisinghe.toast.ToastClientProperties.*;
 
 public class ToastPanelUI extends BasicPanelUI implements StyleableUI, PropertyChangeListener {
 
@@ -98,7 +98,7 @@ public class ToastPanelUI extends BasicPanelUI implements StyleableUI, PropertyC
         margin = UIUtils.getInsets(prefix + ".margin", new Insets(8, 8, 8, 8));
         showCloseButton = FlatUIUtils.getUIBoolean(prefix + ".showCloseButton", true);
         closeIconColor = FlatUIUtils.getUIColor(prefix + ".closeIconColor", new Color(150, 150, 150));
-        closeButtonIcon = UIUtils.getIcon(prefix + ".closeIcon", UIUtils.createIcon("com/sipsuru/toast/svg/close.svg", closeIconColor, 0.75f));
+        closeButtonIcon = UIUtils.getIcon(prefix + ".closeIcon", UIUtils.createIcon("com/walisinghe/toast/svg/close.svg", closeIconColor, 0.75f));
         useEffect = FlatUIUtils.getUIBoolean(prefix + ".useEffect", true);
         effectColor = FlatUIUtils.getUIColor(prefix + ".effectColor", "Component.focusColor");
         effectWidth = FlatUIUtils.getUIFloat(prefix + ".effectWidth", 0.5f);

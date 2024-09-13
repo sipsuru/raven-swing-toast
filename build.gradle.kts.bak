@@ -2,10 +2,10 @@ plugins {
     id("java")
     `java-library`
     `maven-publish`
-    signing
+//    signing
 }
 
-group = "com.walisinghe"
+group = "com.sipsuru"
 version = "1.0.0"
 
 repositories {
@@ -88,11 +88,11 @@ publishing {
             }
         }
     }
-//    publications {
-//        register<MavenPublication>("gpr") {
-//            from(components["java"])
-//        }
-//    }
+    publications {
+        register<MavenPublication>("gpr") {
+            from(components["java"])
+        }
+    }
 }
 
 

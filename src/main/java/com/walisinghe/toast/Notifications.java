@@ -1,11 +1,11 @@
-package com.sipsuru.toast;
+package com.walisinghe.toast;
 
 import com.formdev.flatlaf.ui.FlatUIUtils;
 import com.formdev.flatlaf.util.Animator;
 import com.formdev.flatlaf.util.UIScale;
-import com.sipsuru.toast.ui.ToastNotificationPanel;
-import com.sipsuru.toast.util.NotificationHolder;
-import com.sipsuru.toast.util.UIUtils;
+import com.walisinghe.toast.ui.ToastNotificationPanel;
+import com.walisinghe.toast.util.NotificationHolder;
+import com.walisinghe.toast.util.UIUtils;
 
 import javax.swing.*;
 import java.awt.*;

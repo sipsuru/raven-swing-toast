@@ -1,6 +1,6 @@
-package com.sipsuru.toast.util;
+package com.walisinghe.toast.util;
 
-import com.sipsuru.toast.Notifications;
+import com.walisinghe.toast.Notifications;
 
 import java.util.ArrayList;
 import java.util.List;

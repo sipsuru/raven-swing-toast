@@ -1,4 +1,4 @@
-package com.sipsuru.toast.util;
+package com.walisinghe.toast.util;
 
 import com.formdev.flatlaf.extras.FlatSVGIcon;
 

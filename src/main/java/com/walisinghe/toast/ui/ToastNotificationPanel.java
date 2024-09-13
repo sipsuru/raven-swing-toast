@@ -1,9 +1,9 @@
-package com.sipsuru.toast.ui;
+package com.walisinghe.toast.ui;
 
 import com.formdev.flatlaf.FlatClientProperties;
 import com.formdev.flatlaf.extras.FlatSVGIcon;
-import com.sipsuru.toast.Notifications;
-import com.sipsuru.toast.ToastClientProperties;
+import com.walisinghe.toast.Notifications;
+import com.walisinghe.toast.ToastClientProperties;
 
 import javax.swing.*;
 import java.awt.*;
